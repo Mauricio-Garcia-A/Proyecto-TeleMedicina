@@ -1,0 +1,45 @@
+@import '../../../globalStyles/globalStyles.scss';
+
+.topbar {
+    background: rgba(255, 255, 255, 0.5) !important;
+    backdrop-filter: blur(4px);
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    .link-topbar {
+        color: #38405c;
+        font-size: 15pt;
+         margin: 0px 20px 0px 20px;
+         font-weight: 500;
+
+         &:hover{
+            color: #f05b0b;
+         }
+    }
+    .button-topbar{
+        opacity: 1;
+    }
+}
+
+.topbar2 {
+    
+    background: rgb(183,194,219) !important;
+    background: linear-gradient(0deg, rgba(183,194,219,1) 0%, rgba(139,168,225,1) 100%)  !important; 
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    .link-topbar {
+        color: #38405c;
+        font-size: 15pt;
+         margin: 0px 20px 0px 20px;
+         font-weight: 500;
+         &:hover{
+            color: #f05b0b;
+         }
+    }
+    .button-topbar{
+        opacity: 1;
+    }
+}

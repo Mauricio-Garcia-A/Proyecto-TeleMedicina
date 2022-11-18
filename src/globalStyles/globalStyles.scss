@@ -1,0 +1,92 @@
+.button-standar-01 {
+    font-size: 15pt;
+    border-radius: 20px;
+    padding: 5px 30px 7px 30px;
+    background: #3d5488;
+    border: 0;
+    color: white;
+    text-decoration: none;
+
+
+    &:hover {
+        background: #354772;
+    }
+    &:active {
+        background: #2a3859;
+    }
+}
+
+.button-standar-02 {
+    background: #fb612b;
+    padding: 10px 60px 10px 60px;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    
+
+    &:hover {
+        color: black;
+    }
+    &:active {
+        background: #ff4b09;
+    }
+}
+
+.button-standar-03 {
+    font-size: 12pt;
+    border-radius: 20px;
+    padding: 8px 15px 8px 15px;
+    background: none;
+    color:#70747f ;
+    border: 1px solid #70747f;
+   
+    text-decoration: none;
+
+    &:hover {
+        color: black;
+    }
+    &:active {
+        background: #c9c9ed;
+    }
+}
+
+.button-standar-04 {
+    font-size: 12pt;
+    border-radius: 20px;
+    padding: 10px 15px 10px 15px;
+    border: 1px solid #fb612b;
+    background: #fb612b;
+    color:#ffffff ;
+    
+   
+    text-decoration: none;
+
+    &:hover {
+        color: black;
+    }
+    &:active {
+        background: #ff4b09;
+
+    }
+}
+.button-standar-05 {
+    font-size: 12pt;
+    border-radius: 20px;
+    padding: 10px 15px 10px 15px;
+    border: 1px solid #fb612b;
+    background: none;
+    color:#fb612b ;
+    
+   
+    text-decoration: none;
+
+    &:hover {
+        color: #ab2f02;
+    }
+    &:active {
+        background: #fadace;
+
+    }
+}

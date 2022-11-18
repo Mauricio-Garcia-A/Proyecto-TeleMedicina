@@ -1,0 +1,44 @@
+@import '../../../globalStyles/globalStyles.scss';
+
+.container-ResultElement{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    color:#3D5488;
+    
+    button {
+        margin: 10px 0px 10px 0px;
+    }
+    .data-user-RE {
+        display: flex;
+        flex-flow: row nowrap;
+        p {
+            padding: 0;
+            margin: 0;
+        }
+        h5 {
+            padding: 0;
+            margin: 0;
+        }
+        
+        .img-porfile-RE {
+            margin-right: 20px;
+        }
+        
+    }
+
+    .buttons-controls-RE {
+        display: flex;
+        flex-flow: column;
+    }
+    
+    .buttons-information-user-RE {
+        display: flex;
+        flex-flow: row;
+
+        p {
+            margin: 0;
+            padding-right: 20px;
+        }
+    }
+}

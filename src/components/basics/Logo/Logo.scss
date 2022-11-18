@@ -1,0 +1,30 @@
+.logo{
+    display: flex;
+    flex-flow: row nowrap;
+    color: #3f517b;
+
+    font-size: 20pt;
+    margin: 0px;
+    padding: 10px 20px 0px 0px;
+    .logo-img{
+        margin-left: 1rem;
+        width: 50px;
+        height: 40px;
+        
+    }
+    .cital{
+        
+        margin-left: 10px;
+        font-weight: 300;
+        &:before{
+            content: 'cital';
+        }
+        .doc{
+            font-weight: 400;
+            &:before{
+                content: 'doc';
+            }
+        }
+    }
+    
+}
