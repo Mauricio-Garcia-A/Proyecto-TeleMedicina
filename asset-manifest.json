@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Proyecto-TeleMedicina/static/css/main.257d9cf4.css",
-    "main.js": "/Proyecto-TeleMedicina/static/js/main.922a1536.js",
+    "main.css": "/Proyecto-TeleMedicina/static/css/main.848a6d78.css",
+    "main.js": "/Proyecto-TeleMedicina/static/js/main.5dd5968d.js",
     "static/js/787.a593625c.chunk.js": "/Proyecto-TeleMedicina/static/js/787.a593625c.chunk.js",
     "static/media/bg-home3.png": "/Proyecto-TeleMedicina/static/media/bg-home3.39a3fca33ea086a3d712.png",
     "static/media/bg-BePartCommunity.png": "/Proyecto-TeleMedicina/static/media/bg-BePartCommunity.af9698ba7304fd09d527.png",
@@ -11,12 +11,12 @@
     "static/media/img-dr-01.png": "/Proyecto-TeleMedicina/static/media/img-dr-01.b132f0c93ce8b8f6cf40.png",
     "static/media/logo.png": "/Proyecto-TeleMedicina/static/media/logo.df5f8845a01af21648ff.png",
     "index.html": "/Proyecto-TeleMedicina/index.html",
-    "main.257d9cf4.css.map": "/Proyecto-TeleMedicina/static/css/main.257d9cf4.css.map",
-    "main.922a1536.js.map": "/Proyecto-TeleMedicina/static/js/main.922a1536.js.map",
+    "main.848a6d78.css.map": "/Proyecto-TeleMedicina/static/css/main.848a6d78.css.map",
+    "main.5dd5968d.js.map": "/Proyecto-TeleMedicina/static/js/main.5dd5968d.js.map",
     "787.a593625c.chunk.js.map": "/Proyecto-TeleMedicina/static/js/787.a593625c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.257d9cf4.css",
-    "static/js/main.922a1536.js"
+    "static/css/main.848a6d78.css",
+    "static/js/main.5dd5968d.js"
   ]
 }
