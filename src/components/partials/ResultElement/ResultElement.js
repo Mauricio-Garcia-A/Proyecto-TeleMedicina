@@ -20,21 +20,21 @@ export default function ResultElement({ nameUser, imgProfile, medicalSpeciality,
             </div>
             {controlsButtons
                 ? <div className='buttons-controls-RE'>
-                    <Link to={"profesional-seleccionado/01"} type="submit" className="button-standar-04">TOMAR TURNO ONLINE</Link>
-                    <button className="button-standar-05">CONSULTA POR CHAT</button>
+                    <Link to={"profesional-seleccionado/01"} type="submit" className="button-standar-04 button-RE">TOMAR TURNO ONLINE</Link>
+                    <button className="button-standar-05 button-RE">CONSULTA POR CHAT</button>
                 </div>
                 : <></>
             }
 
 
             {informationUser
-                ? <div className='buttons-information-user-RE'>
+                ? <div className='information-user-RE'>
                     <p><b>Importe de la consulta:</b>{` $ ${amount}`}</p>
                     <div>
                         <p><b>Cobertura médica:</b></p>
                         <ul>
                             {medicalCoverage.map((MC, i) => {
-                                return <li>{MC}</li>
+                                return <li key={`medical-coverage-${i}`} >{MC}</li>
                             })}
                         </ul>
                     </div>

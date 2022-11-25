@@ -7,7 +7,12 @@
     top: 0;
     width: 100%;
 
+ 
+
     .link-topbar {
+        white-space: nowrap;
+        // overflow: hidden;
+        // text-overflow: ellipsis;
         color: #38405c;
         font-size: 15pt;
          margin: 0px 20px 0px 20px;
@@ -31,10 +36,12 @@
     width: 100%;
 
     .link-topbar {
+        white-space: nowrap;
         color: #38405c;
         font-size: 15pt;
          margin: 0px 20px 0px 20px;
          font-weight: 500;
+
          &:hover{
             color: #f05b0b;
          }

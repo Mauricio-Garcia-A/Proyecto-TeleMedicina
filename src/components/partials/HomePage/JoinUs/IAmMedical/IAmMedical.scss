@@ -1,0 +1,73 @@
+@import '../../../../../globalStyles/globalStyles.scss';
+
+
+.container-IAmMedical{
+    padding: 100px 0px 100px 0px;
+    
+    background-image: url('../../../../../images/bg-BePartCommunity.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    text-align: center;
+
+    color: white;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items:flex-start;
+
+    .item1-IAmMedical {
+        
+        order: 1;
+        flex-grow: 1;
+
+    }
+    .item2-IAmMedical {
+        flex-grow: 5;
+       order: 2; 
+    }
+    .item3-IAmMedical {
+       
+        margin: 0px 0px 0px 0px;
+
+        flex-grow: 1;
+        order: 3;
+    }
+
+
+
+    img{
+        width: 120px;
+        height: 120px;
+    }
+    p {
+        padding: 0;
+        margin: 0;
+    }
+    h3 {
+        font-size: 15pt;
+        margin: 0px 0px 30px 0px;
+    }
+    .button-IAmMedical {
+        text-transform: uppercase;
+        margin: 30px 0px 20px 0px;
+    }
+
+    @media (max-width: 800px) {
+        flex-flow: row wrap;
+        
+        .item1-IAmMedical {
+            width: 50%;
+            order: 1;
+        }
+        .item2-IAmMedical {
+            margin-top: 40px;
+           order: 3; 
+        }
+        .item3-IAmMedical {
+            width: 50%;
+            order: 2;
+        } 
+    }
+}

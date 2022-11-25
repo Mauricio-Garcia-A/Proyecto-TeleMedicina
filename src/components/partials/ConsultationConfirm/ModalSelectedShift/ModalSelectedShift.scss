@@ -1,0 +1,17 @@
+.modal-container {
+    position: relative;
+    .button-close {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+}
+
+.visibilityON {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.visibilityOFF {
+    display: none;
+}

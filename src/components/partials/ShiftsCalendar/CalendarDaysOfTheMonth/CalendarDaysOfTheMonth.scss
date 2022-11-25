@@ -1,0 +1,153 @@
+@import '../../../../globalStyles/globalStyles.scss';
+
+
+.container-calendar-days {
+    width: 600px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    .container-controls-calendar {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+        background: $color1;
+        background: linear-gradient(0deg, $color1 20%, rgba(247, 198, 174, 1) 100%);
+
+        border-radius: 50px 50px 0px 0px;
+        padding: 8px 35px 8px 35px;
+        margin: 0;
+
+        h1 {
+            font-size: 15pt;
+            text-transform: capitalize;
+            color: white;
+            padding: 0;
+            margin: 0;
+        }
+
+        button {
+            background: none;
+            border: 0;
+            fill: white;
+            margin: 0px;
+            padding: 0;
+
+            &:hover {
+                fill: #c90202;
+            }
+
+            &:active {
+                fill: $color3;
+            }
+
+            &:disabled {
+                fill: rgba(255, 255, 255, 0.203);
+            }
+
+        }
+    }
+
+    .list-calendar-days {
+        list-style: none;
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        padding: 0;
+        margin: 0;
+
+        li {
+            border: 1px solid $color3;
+            height: 70px;
+            color: #bababa;
+            margin: 0;
+            padding: 0;
+
+            p {
+                margin: 0;
+                padding: 5px 0px 0px 10px;
+            }
+        }
+
+        .medical-shift-indicator {
+            cursor: pointer;
+            cursor: hand;
+
+            b {
+                margin: 0;
+                padding: 5px 0px 0px 10px;
+                color: $color2;
+            }
+
+            p {
+                color: $color3;
+                font-size: 8pt;
+                margin: 0;
+                padding: 0px 0px 0px 5px;
+            }
+
+            &:hover {
+                background: #ffe4d4;
+            }
+
+            &:active {
+                background: #d4ddff;
+            }
+        }
+
+        .days-name {
+            text-transform: capitalize;
+            background: #ffebd6;
+            color: $color1;
+            text-align: center;
+            border: 1px solid $color1;
+            height: 30px;
+        }
+
+        .days-different-months {
+            background: #e0e0e0;
+
+            p {
+                margin: 0;
+                padding: 5px 0px 0px 10px;
+            }
+        }
+
+    }
+
+    @media (max-width: 650px) {
+        width: 100%;
+
+        .list-calendar-days {
+            li {
+                height: 11vw;
+
+                p {
+                    margin: 0;
+                    padding: 0px;
+                }
+            }
+
+            .medical-shift-indicator {
+                overflow: hidden;
+
+                b {
+                    padding: 3px;
+                }
+
+                p {
+                    color: $color3;
+                    font-size: 2vw;
+                    margin: 0;
+                    padding: 2px;
+
+                    span {
+                        display: none;
+                    }
+                }
+            }
+        }
+
+    }
+}

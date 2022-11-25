@@ -1,66 +1,79 @@
 .container-footer {
     background: rgb(82, 119, 230);
     background: linear-gradient(194deg, rgba(82, 119, 230, 1) 0%, rgba(225, 232, 251, 1) 76%);
-    p {
+
+    article p {
         font-size: 10pt;
     }
 
-    .container-sections-footer{
+    .container-sections-footer {
         display: flex;
         flex-flow: row nowrap;
         justify-content: space-between;
         padding: 20px;
+
+
+
         section {
             width: 20%;
-        } 
+        }
+
         .section-01-footter {
             article {
                 margin: 30px 0px 0px 0px;
             }
-  
+
         }
+
         .section-02-footter {
             width: 45%;
             display: flex;
             flex-flow: row nowrap;
             justify-content: space-around;
-            padding: 40px 0px 40px 0px;
+            padding: 40px 30px 40px 30px;
             margin: 40px 0px 0px 0px;
 
             border-left: 1px solid beige;
             border-right: 1px solid beige;
 
-            
-            article {
 
+            article {
+                
                 display: flex;
                 flex-flow: column;
             }
+
             span {
                 font-size: 10pt;
             }
+
             h5 {
                 font-size: 12pt;
             }
         }
+
         .section-03-footter {
             margin: 80px 0px 0px 0px;
             text-align: center;
+
             .container-icons-stores {
                 display: flex;
                 flex-flow: row nowrap;
                 justify-content: center;
+
                 img {
                     margin: 5px;
                     height: 30px;
                 }
 
             }
+
             .container-icons {
                 display: flex;
                 flex-flow: row nowrap;
                 justify-content: center;
-                .icon-RS{
+
+                .icon-RS {
                     margin: 5px;
                     background: white;
                     border: 1px solid #FB612B;
@@ -70,22 +83,49 @@
                     height: 30px;
                     display: flex;
                     justify-content: center;
-    
+
                     &:hover {
                         border: 1px solid rgb(186, 54, 25);
                         fill: rgb(194, 58, 27);
                     }
+
                     &:active {
                         border: 1px solid rgb(146, 33, 8);
                         fill: rgb(144, 32, 7);
                     }
                 }
             }
-            
+
         }
- 
+
+        @media (max-width: 1000px) {
+            flex-flow: column nowrap;
+            justify-content: space-between;
+
+            section {
+                width: 100%;
+            }
+
+            .section-02-footter {
+                
+                padding: 40px 0px 40px 0px;
+                width: 100%;
+                border-left: 0px solid beige;
+                border-right: 0px solid beige;
+                border-top: 1px solid beige;
+                border-bottom: 1px solid beige;
+            }
+            .section-03-footter {
+                margin: 40px 0px 40px 0px;
+            }
+        }
     }
+
     .Copyright {
+        margin: 0;
+        padding: 10px;
+        color: rgb(153, 153, 153);
+        font-size: 8pt;
         text-align: center;
     }
 }

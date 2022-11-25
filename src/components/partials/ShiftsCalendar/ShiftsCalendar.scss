@@ -1,3 +1,4 @@
+@import '../../../globalStyles/globalStyles.scss';
 
 .container-ShiftsCalendar {
     display: flex;
@@ -5,106 +6,18 @@
     align-items: center;
     margin: 20px;
     color:#3D5488;
-}
 
+    .button-SC {
+        margin: 20px;
 
-
-.list-calendar-days {
-    list-style: none;
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    padding: 0;
-    margin: 0;
-  
-    li {
-        border: 1px solid #a0a4b6;
-        height: 70px;
-        color: #a0a0a0;
-    }
-    .days-name {
-        text-transform: capitalize;
-        background:#ffebd6 ;
-        color: #d7846f;
-        text-align: center;
-        border: 1px solid #e7b9ab;
-        height: 30px;
-    }
-    .days-different-months{
-        background: #e0e0e0;
-    }
-    
-}
-
-.container-calendar-days {
-    width: 600px;
-
- 
-    .container-controls-calendar {
-        display: flex;
-        flex-flow: row nowrap;
-        justify-content: space-between;
-        align-items: center;
-        background: rgb(229,94,29);
-        background: linear-gradient(0deg, rgba(229,94,29,1) 20%, rgba(247,198,174,1) 100%);
-    
-        border-radius: 50px 50px 0px 0px;
-        h1 {
-            font-size: 15pt;
-            text-transform: capitalize;
-            color: white;
-        }
-        button {
+        &:disabled{
             background: none;
-            border: 0;
-            color: white;
-            margin: 0px 30px 0px 30px;
-            font-weight: bold;
-            &:hover{
-                color: #5e5e5e;
-            } 
-            &:active{
-                color: #1d1a1a;
-            }
-        }
-    }
-
-}
-.container-calendar-hours {
-    width: 600px;
-    border: 1px solid rgb(207, 150, 126);
-    border-radius: 10px;
-    padding: 20px 0px 30px 0px;
-    text-align: center;
-
-    b{
-        color: rgb(239, 105, 22);
-    }
-    .list-calendar-hours {
-        list-style: none;
-        display: grid;
-        grid-template-rows: repeat(5, 1fr);
-        grid-auto-flow: column;
-        grid-gap: 10px;
-        padding: 0;
-        margin: 0;
-        padding: 10px;
-
-        li {
-            background: #fb612b;
-            border: 1px solid #fb612b;
-            color: white;
-            //font-weight: bold;
-            border-radius: 5px;
-            text-align: center;
-            padding: 8px;
-            background: none;
-            border: 1px solid rgb(174, 174, 174);
-            color: rgb(174, 174, 174);
-            &:hover {
-                background: #fb612b;
-                border: 1px solid #fb612b;
-                color: white;
-            }
+            border: 1px solid rgba(128, 128, 128, 0.471);
+            color: rgba(128, 128, 128, 0.471);;
         }
     }
 }
+
+
+
+

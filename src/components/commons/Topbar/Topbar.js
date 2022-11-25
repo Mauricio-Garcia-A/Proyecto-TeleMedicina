@@ -20,16 +20,16 @@ export default function Topbar({styleNav=true}) {
 
                     <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li className="nav-item">
+                            <li className=" nav-link">
                                 <a className="nav-link link-topbar" href="#">Especialidades médicas</a>
                             </li>
-                            <li className="nav-item">
+                            <li className=" nav-link">
                                 <a className="nav-link link-topbar" href="#">Cartilla</a>
                             </li> 
-                            <li className="nav-item">
+                            <li className=" nav-link">
                                 <a className="nav-link link-topbar" href="#">Quiero ser parte</a>
                             </li>
-                            <li className="nav-item">
+                            <li className=" nav-link">
                                 <a className="nav-link link-topbar" href="#">Conocenos</a>
                             </li>
                         </ul>

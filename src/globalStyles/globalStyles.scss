@@ -1,12 +1,26 @@
+// Variables de estilos Globales
+$color1:#FB612B;
+$color2:#567EDC;
+$color3:#3D5488;
+$color4:#112557;
+$color5:#0A1A43;
+
+//  Tamaño Font titulos
+$titleMain: 36px ;
+$theRest: 32px ;
+$others:25px ;
+
+
 .button-standar-01 {
     font-size: 15pt;
-    border-radius: 20px;
+    border-radius: 40px;
     padding: 5px 30px 7px 30px;
     background: #3d5488;
     border: 0;
     color: white;
     text-decoration: none;
 
+    white-space: nowrap;
 
     &:hover {
         background: #354772;
@@ -25,7 +39,7 @@
     text-decoration: none;
     font-weight: bold;
     
-
+    white-space: nowrap;
     &:hover {
         color: black;
     }
@@ -36,14 +50,14 @@
 
 .button-standar-03 {
     font-size: 12pt;
-    border-radius: 20px;
+    border-radius: 40px;
     padding: 8px 15px 8px 15px;
     background: none;
     color:#70747f ;
     border: 1px solid #70747f;
    
     text-decoration: none;
-
+    white-space: nowrap;
     &:hover {
         color: black;
     }
@@ -54,13 +68,13 @@
 
 .button-standar-04 {
     font-size: 12pt;
-    border-radius: 20px;
+    border-radius: 40px;
     padding: 10px 15px 10px 15px;
     border: 1px solid #fb612b;
     background: #fb612b;
     color:#ffffff ;
     
-   
+    white-space: nowrap;
     text-decoration: none;
 
     &:hover {
@@ -73,13 +87,13 @@
 }
 .button-standar-05 {
     font-size: 12pt;
-    border-radius: 20px;
+    border-radius: 40px;
     padding: 10px 15px 10px 15px;
     border: 1px solid #fb612b;
     background: none;
     color:#fb612b ;
     
-   
+    white-space: nowrap;
     text-decoration: none;
 
     &:hover {

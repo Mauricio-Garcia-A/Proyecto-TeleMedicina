@@ -17,8 +17,9 @@ export default function ProfilePage(props) {
                 <ResultElement nameUser={perfilesUser[0].name} imgProfile={perfilesUser[0].img} medicalSpeciality={perfilesUser[0].specialty} controlsButtons={false} informationUser={true} amount={perfilesUser[0].amount} medicalCoverage={perfilesUser[0].medicalCoverage} />
 
             </article>
-
-            <ShiftsCalendar />
+            <div className='calendar-ProfilePage'>
+                <ShiftsCalendar userProfile={perfilesUser[0]} />
+            </div>
         </div>
     );
 }

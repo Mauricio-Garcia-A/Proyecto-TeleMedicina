@@ -1,0 +1,40 @@
+
+.container-ConsultFinish {
+    img {
+        width: 200px;
+        margin: 50px;
+    }
+    footer {
+        margin: 100px 0px 30px 0px;
+    }
+}
+.container-ConsultationDetails {
+    align-items: flex-start;
+    padding: 0px 20px 0px 20px;
+    section {
+        margin: 20px 0px 20px 0px;
+
+    }
+    footer {
+        margin: 30px 0px 20px 0px;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        align-content: center;
+        width: 100%;
+        button {
+            width: 150px;
+        }
+    }
+    .container-data-porfile-profe{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 60px 0px 20px 0px;
+    }
+    p {
+        margin: 0;
+    }
+}

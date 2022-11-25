@@ -1,0 +1,100 @@
+@import '../../../../globalStyles/globalStyles.scss';
+
+
+.container-calendar-hours {
+    width: 600px;
+    border: 1px solid $color1;
+    border-radius: 10px;
+    padding: 30px 0px 30px 0px;
+    text-align: center;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    .container-controls-days {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 0px 40px 0px;
+
+        button {
+            background: none;
+            border: 0;
+            fill: $color1;
+            margin: 0px;
+            padding: 0;
+
+            &:hover {
+                fill: #c90202;
+            }
+
+            &:active {
+                fill: $color3;
+            }
+
+            &:disabled {
+                fill: rgba(255, 68, 0, 0.214);
+            }
+        }
+
+        b{
+            color:  $color1;
+            margin: 0px 40px 0px 40px;
+        }
+
+    }
+    
+    .list-calendar-hours {
+        list-style: none;
+        display: grid;
+        grid-template-rows: repeat(9, 1fr);
+        grid-auto-flow: column;
+        grid-gap: 10px;
+        padding: 0;
+        margin: 0;
+        padding: 10px;
+
+        li {
+            border-radius: 5px;
+            text-align: center;
+            padding: 8px;
+            background: none;
+
+            &.disableOFF {
+                background: none;
+                border: 1px solid rgb(174, 174, 174);
+                color: rgb(174, 174, 174);
+            }
+            &.disableON {
+                background: $color1;
+                color: white;
+                border: 1px solid $color1;
+
+                &:hover {
+                    background: $color2;
+                    border: 1px solid $color2;
+                    color: white;
+                }
+                &:active {
+                    background: $color4;
+                    border: 1px solid $color4;
+                    color: white;
+                }
+               &.active {
+                    background: $color3;
+                    border: 1px solid $color3;
+                    color: white;
+                }
+            }    
+        }
+    }
+
+    @media (max-width: 650px) {
+        width: 100%;
+
+        
+    }
+}

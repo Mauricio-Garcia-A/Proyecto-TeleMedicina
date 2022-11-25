@@ -1,6 +1,7 @@
 .container-HomeHeader{
     padding-top: 80px;
     height: 100vh;
+    min-height: 600px;
     background-image: url('../../../../images/bg-home3.png');
     background-color: #ffffff2d;
     background-blend-mode:multiply;
@@ -22,7 +23,8 @@
     }
 
     .container-seach-HomeHeader {
-        width: 500px;
+        width: 100%;
+        max-width: 500px;
         .container-elements-SeachFliters {
             height: 150px;
         }

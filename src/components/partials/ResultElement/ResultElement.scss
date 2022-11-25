@@ -2,7 +2,7 @@
 
 .container-ResultElement{
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     justify-content: space-between;
     color:#3D5488;
     
@@ -11,7 +11,7 @@
     }
     .data-user-RE {
         display: flex;
-        flex-flow: row nowrap;
+        flex-flow: row wrap;
         p {
             padding: 0;
             margin: 0;
@@ -30,15 +30,34 @@
     .buttons-controls-RE {
         display: flex;
         flex-flow: column;
+        .button-RE {
+            width: 200px;
+        }
     }
     
-    .buttons-information-user-RE {
+    .information-user-RE {
         display: flex;
-        flex-flow: row;
+        flex-flow: row wrap;
 
         p {
             margin: 0;
             padding-right: 20px;
+        }
+    }
+
+    @media (max-width: 700px) {
+        flex-flow: column nowrap; 
+        align-items: center;
+        .data-user-RE {
+            flex-flow: column wrap;
+            align-items: center;
+        }
+        .buttons-controls-RE {
+            flex-flow: column;
+            align-items: center;
+        }
+        .information-user-RE {
+            flex-flow: column;
         }
     }
 }

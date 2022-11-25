@@ -10,7 +10,9 @@ export default function RoutersWeb(props) {
             <Route path="/" element={<Home />} />
             <Route path="/Proyecto-TeleMedicina" element={<Home />} />
             <Route path={"/buscar-profesional"} element={ <ResultPage/> } />
+            <Route path={"/Proyecto-TeleMedicina/buscar-profesional"} element={ <ResultPage/> } />
             <Route path="/buscar-profesional/profesional-seleccionado/:id" element={ <ProfilePage /> } />
+            <Route path="/Proyecto-TeleMedicina/buscar-profesional/profesional-seleccionado/:id" element={ <ProfilePage /> } />
             <Route path="*" element={ <div>error</div> } />
         </Routes>
     );
